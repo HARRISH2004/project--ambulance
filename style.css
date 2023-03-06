@@ -123,7 +123,7 @@ section .title::after {
 /* home section styling */
 .home {
     display: flex;
-    background: url("images/banner.jpg") no-repeat center;
+    background: url("https://th-i.thgim.com/public/incoming/kctn3a/article65066671.ece/alternates/LANDSCAPE_1200/_DSC3383.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -137,18 +137,14 @@ section .title::after {
     display: flex;
 }
 
-.home .home-content .text-1 {
-    font-size: 27px;
-}
-
 .home .home-content .text-2 {
-    font-size: 75px;
+    font-size: 50px;
     font-weight: 600;
     margin-left: -3px;
 }
 
 .home .home-content .text-3 {
-    font-size: 40px;
+    font-size: 20px;
     margin: 5px 0;
 }
 
@@ -168,6 +164,11 @@ section .title::after {
 .home .home-content a:hover {
     color: crimson;
     background: none;
+}
+
+.fir{
+    max-width: 100%;
+    height: auto;
 }
 
 /* about section styling */
@@ -234,6 +235,7 @@ section .title::after {
     content: "what i provide";
 }
 
+
 .services .serv-content .card {
     width: calc(33% - 20px);
     background: #222;
@@ -270,6 +272,22 @@ section .title::after {
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+}
+
+.lk:link ,.lk:visited{
+    margin-top:10px;
+    background-color: black;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+    color:crimson;
+}
+
+.imgs{
+    max-width: 100%;
+    height: auto;
+    align-items: center;
 }
 
 /* skills section styling */
